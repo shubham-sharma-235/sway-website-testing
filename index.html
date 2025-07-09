@@ -17,16 +17,11 @@
   </head>
   <body>
     <!-- Start Header -->
-    <header class="cs_site_header cs_style_1 cs_primary_color cs_sticky_header">
+    <header class="cs_site_header cs_style_1 cs_color_1 cs_primary_color cs_sticky_header">
       <div class="cs_main_header">
         <div class="container-fluid">
           <div class="cs_main_header_in">
             <div class="cs_main_header_left">
-              <a class="cs_site_branding" href="index.html">
-                <img src="assets/img/logo.svg" alt="Logo">
-              </a>
-            </div>
-            <div class="cs_main_header_center cs_center_full_width">
               <div class="cs_nav">
                 <div class="cs_nav_list_wrap">
                   <ul class="cs_nav_list">
@@ -45,7 +40,6 @@
                         <li><a href="masonary.html">Masonary</a></li>
                       </ul>
                     </li>
-                    <li><a href="blogs.html">FASHION</a></li>
                     <li><a href="about.html">About</a></li>
                     <li class="menu-item-has-children">
                       <a href="#">Pages</a>
@@ -70,15 +64,15 @@
                 </div>
               </div>
             </div>
+            <div class="cs_main_header_center">
+              <a class="cs_site_branding" href="index.html">
+                <img src="assets/img/logo_white.svg" alt="Logo">
+              </a>
+            </div>
             <div class="cs_main_header_right">
-              <div class="cs_header_btns_2">
-                <div class="cs_social_links cs_style_3">
-                  <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                  <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-                  <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                </div>
-                <button class="cs_search_toggle_btn" type="button">
+              <form action="#" class="cs_search cs_style_1 cs_hide_mobile">
+                <input type="text" placeholder="Search..." class="cs_search_input">
+                <button class="cs_search_submit" type="button">
                   <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g>
                     <path d="M24.9999 24.0271L18.477 17.5042C20.1714 15.4319 21.0045 12.7876 20.8039 10.1183C20.6033 7.44901 19.3845 4.9589 17.3995 3.16306C15.4144 1.36722 12.8151 0.40303 10.1391 0.469938C7.46312 0.536846 4.91521 1.62973 3.02241 3.52253C1.12961 5.41533 0.036724 7.96324 -0.0301841 10.6392C-0.0970923 13.3152 0.867093 15.9146 2.66294 17.8996C4.45878 19.8846 6.94889 21.1035 9.61819 21.304C12.2875 21.5046 14.9318 20.6715 17.0041 18.9771L23.527 25.5L24.9999 24.0271ZM10.4166 19.25C8.76838 19.25 7.15722 18.7613 5.78681 17.8456C4.4164 16.9299 3.3483 15.6284 2.71757 14.1057C2.08683 12.583 1.92181 10.9074 2.24335 9.29093C2.56489 7.67442 3.35857 6.18956 4.52401 5.02413C5.68944 3.85869 7.1743 3.06502 8.79081 2.74347C10.4073 2.42193 12.0829 2.58696 13.6056 3.21769C15.1283 3.84842 16.4298 4.91652 17.3455 6.28693C18.2612 7.65734 18.7499 9.26851 18.7499 10.9167C18.7474 13.1261 17.8686 15.2442 16.3064 16.8065C14.7441 18.3688 12.6259 19.2475 10.4166 19.25Z" fill="currentColor"/>
@@ -90,7 +84,19 @@
                     </defs>
                   </svg>                  
                 </button>
-              </div>
+              </form>
+              <button class="cs_search_toggle_btn cs_white_color cs_show_mobile" type="button">
+                <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                  <path d="M24.9999 24.0271L18.477 17.5042C20.1714 15.4319 21.0045 12.7876 20.8039 10.1183C20.6033 7.44901 19.3845 4.9589 17.3995 3.16306C15.4144 1.36722 12.8151 0.40303 10.1391 0.469938C7.46312 0.536846 4.91521 1.62973 3.02241 3.52253C1.12961 5.41533 0.036724 7.96324 -0.0301841 10.6392C-0.0970923 13.3152 0.867093 15.9146 2.66294 17.8996C4.45878 19.8846 6.94889 21.1035 9.61819 21.304C12.2875 21.5046 14.9318 20.6715 17.0041 18.9771L23.527 25.5L24.9999 24.0271ZM10.4166 19.25C8.76838 19.25 7.15722 18.7613 5.78681 17.8456C4.4164 16.9299 3.3483 15.6284 2.71757 14.1057C2.08683 12.583 1.92181 10.9074 2.24335 9.29093C2.56489 7.67442 3.35857 6.18956 4.52401 5.02413C5.68944 3.85869 7.1743 3.06502 8.79081 2.74347C10.4073 2.42193 12.0829 2.58696 13.6056 3.21769C15.1283 3.84842 16.4298 4.91652 17.3455 6.28693C18.2612 7.65734 18.7499 9.26851 18.7499 10.9167C18.7474 13.1261 17.8686 15.2442 16.3064 16.8065C14.7441 18.3688 12.6259 19.2475 10.4166 19.25Z" fill="currentColor"/>
+                  </g>
+                  <defs>
+                  <clipPath>
+                  <rect width="25" height="25" fill="white" transform="translate(0 0.5)"/>
+                  </clipPath>
+                  </defs>
+                </svg>                  
+              </button>
             </div>
           </div>
         </div>
@@ -109,239 +115,388 @@
     </div>
     <!-- End Header -->
     <!-- Start Hero Section -->
-    <section class="cs_hero cs_style_4">
-      <div class="container-fluid">
-        <div class="cs_hero_in">
-          <div class="cs_hero_text">
-            <p class="cs_fs_23 cs_mb_30 cs_mb_lg_20">By <a href="#">Nikola</a> / 23 April 2024</p>
-            <h1 class="cs_fs_64 cs_medium cs_mb_23 cs_mb_lg_15">In the Realm of Reflection: Chronicles of Growth</h1>
-            <p class="cs_fs_23 cs_mb_45  cs_mb_lg_30">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise. In embracing uncertainty, we find thes...</p>
-            <a href="blog-details.html" class="cs_btn cs_style_2 cs_fs_23 cs_primary_color cs_radius_15">Read Now</a>
+    <section class="cs_slider cs_style_1 cs_primary_bg">
+      <div class="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-fade-slide="1" data-variable-width="0" data-slides-per-view="1">
+        <div class="cs_slider_wrapper">
+          <div class="cs_slide">
+            <div class="cs_hero cs_style_3 cs_bg_filed" data-src="assets/img/hero_post_4.jpg">
+              <div class="container-fluid">
+                <div class="cs_hero_in cs_primary_bg">
+                  <div class="cs_hero_text">
+                    <h1 class="cs_fs_128 cs_medium cs_white_color cs_mb_28">Exploring the Cosmos Within</h1>
+                    <a href="blog-details.html" class="cs_btn cs_style_2 cs_fs_23 cs_white_color cs_radius_15">Explore</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="cs_hero_img"><img src="assets/img/hero_post_7.jpg" alt="Hero"></div>
+          <div class="cs_slide">
+            <div class="cs_hero cs_style_3 cs_bg_filed" data-src="assets/img/hero_post_5.jpg">
+              <div class="container-fluid">
+                <div class="cs_hero_in cs_primary_bg">
+                  <div class="cs_hero_text">
+                    <h1 class="cs_fs_128 cs_medium cs_white_color cs_mb_28">Navigating Inner Space</h1>
+                    <a href="blog-details.html" class="cs_btn cs_style_2 cs_fs_23 cs_white_color cs_radius_15">Explore</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cs_slide">
+            <div class="cs_hero cs_style_3 cs_bg_filed" data-src="assets/img/hero_post_6.jpg">
+              <div class="container-fluid">
+                <div class="cs_hero_in cs_primary_bg">
+                  <div class="cs_hero_text">
+                    <h1 class="cs_fs_128 cs_medium cs_white_color cs_mb_28">Discovering Hidden Realms</h1>
+                    <a href="blog-details.html" class="cs_btn cs_style_2 cs_fs_23 cs_white_color cs_radius_15">Explore</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="cs_pagination cs_style_3"></div>
     </section>
     <!-- End Hero Section -->
-    <!-- Start Tending Blog Section -->
-    <section class="container-fluid">
+     <section>
       <div class="cs_height_140 cs_height_lg_75"></div>
-      <div class="cs_slider cs_style_1 cs_slider_gap_40">
-        <div class="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-variable-width="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-lg-slides="3" data-add-slides="4">
-          <div class="cs_section_heading cs_style_2">
-            <h2 class="cs_section_title mb-0 cs_fs_32">Trending Blogs</h2>
-            <div class="cs_slider_arrows cs_style_3">
-              <div class="cs_left_arrow">
-                <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0.939341 10.9393C0.353554 11.5251 0.353554 12.4749 0.939341 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97919 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.939341 10.9393ZM30 10.5L2 10.5V13.5L30 13.5V10.5Z" fill="currentColor"/>
-                </svg>                                                             
-              </div>
-              <div class="cs_right_arrow">
-                <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M29.0607 13.0607C29.6464 12.4749 29.6464 11.5251 29.0607 10.9393L19.5147 1.3934C18.9289 0.807611 17.9792 0.807611 17.3934 1.3934C16.8076 1.97919 16.8076 2.92893 17.3934 3.51472L25.8787 12L17.3934 20.4853C16.8076 21.0711 16.8076 22.0208 17.3934 22.6066C17.9792 23.1924 18.9289 23.1924 19.5147 22.6066L29.0607 13.0607ZM0 13.5L28 13.5V10.5L0 10.5L0 13.5Z" fill="currentColor"/>
-                </svg>                                                        
+      <div class="container-fluid">
+        <div class="row cs_gap_y_40 cs_row_gap_40">
+          <div class="col-lg-12">
+            <div class="cs_post cs_style_7">
+              <a href="blog-details.html" class="cs_post_thumb cs_zoom">
+                <img src="assets/img/post_22.jpg" alt="Thumb" class="cs_zoom_in w-100">
+              </a>
+              <div class="cs_post_info">
+                <h2 class="cs_post_title cs_mb_12 cs_fs_64"><a href="blog-details.html">Sway’s story</a></h2>
+                <p class="cs_post_subtitle cs_mb_43 cs_mb_xl_20 cs_fs_23">
+                  SWAY is a Jaipur-based costume and Adornment design studio that transforms fabric into storytelling. What began as a humble initiative to create personalized dance costumes has grown into a full-fledged creative atelier — <b>crafting outfits for stage, screen, celebrations, and sacred rituals.</b>
+
+                  <br><br>
+                  
+                  From the sparkle of a bride’s lehenga to the elegance of classical dancewear, <b>SWAY believes that every piece of clothing should narrate a moment.</b> Each piece is thoughtfully designed, stitched with purpose, and tailored to reflect the individuality of its wearer.
+                  
+                  <br><br>
+
+                  <b>Our journey is rooted in heritage yet driven by a contemporary spirit</b> — blending traditional craftsmanship with modern aesthetics to create meaningful, performance-ready attire that resonates across generations and cultures.
+                </p>
+                <a href="#" class="cs_btn cs_style_2 cs_fs_23 cs_primary_color cs_radius_15">Read Now</a>
               </div>
             </div>
           </div>
-          <div class="cs_height_56 cs_height_lg_45"></div>
+          <div class="col-lg-4">
+            <div class="cs_post cs_style_8">
+              <a href="blog-details.html" class="cs_post_thumb cs_zoom">
+                <img src="assets/img/post_23.jpg" alt="Thumb" class="cs_zoom_in w-100">
+              </a>
+              <div class="cs_post_info">
+                <h2 class="cs_post_title mb-0 cs_fs_32"><a href="blog-details.html">Gastronomic Journeys: Savoring the Flavorful World</a></h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="cs_post cs_style_8">
+              <a href="blog-details.html" class="cs_post_thumb cs_zoom">
+                <img src="assets/img/post_24.jpg" alt="Thumb" class="cs_zoom_in w-100">
+              </a>
+              <div class="cs_post_info">
+                <h2 class="cs_post_title mb-0 cs_fs_32"><a href="blog-details.html">Threads of Time: Vintage Vibes and Modern Musings</a></h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="cs_post cs_style_8">
+              <a href="blog-details.html" class="cs_post_thumb cs_zoom">
+                <img src="assets/img/post_25.jpg" alt="Thumb" class="cs_zoom_in w-100">
+              </a>
+              <div class="cs_post_info">
+                <h2 class="cs_post_title mb-0 cs_fs_32"><a href="blog-details.html">Soulful Strokes: Artistic Adventures on Canvas</a></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_140 cs_height_lg_75"></div>
+    </section>
+    <!-- Start Featured Posts Section -->
+    <div class="cs_height_170 cs_height_lg_75"></div>
+    <div class="container-fluid">
+      <div class="cs_section_heading cs_style_1">
+        <h2 class="cs_section_title cs_fs_90 mb-0">What We Offer</h2>
+        <!-- <div class="cs_section_btn cs_hide_mobile">
+          <a href="#" class="cs_btn cs_style_2 cs_fs_23 cs_primary_color">Explore More</a>
+        </div> -->
+      </div>
+      <div class="cs_height_90 cs_height_lg_50"></div>
+      <div class="cs_slider cs_style_1 cs_slider_gap_40">
+        <div class="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-variable-width="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="2" data-lg-slides="3" data-add-slides="3">
           <div class="cs_slider_wrapper">
             <div class="cs_slide">
-              <div class="cs_post cs_style_5 cs_radius_15 cs_zoom">
-                <a href="blog-details.html" class="cs_post_thumb d-block">
-                  <img src="assets/img/post_9.jpg" alt="Thumb" class="cs_zoom_in">
+              <div class="cs_post cs_style_1 cs_radius_15">
+                <a href="blog-details.html" class="cs_post_thumb d-block cs_zoom cs_mb_32">
+                  <img src="assets/img/post_1.jpg" alt="Thumb" class="cs_zoom_in">
                 </a>
                 <div class="cs_post_info">
-                  <p class="cs_post_meta cs_mb_21 cs_fs_23 cs_accent_color">Travel</p>
-                  <h2 class="cs_post_title mb-0 cs_fs_32 cs_white_color"><a href="blog-details.html">Embracing Change: Navigating Life's Transitions</a></h2>
+                  <h2 class="cs_post_title cs_mb_25 cs_mb_xl_15 cs_fs_45"><a href="blog-details.html">Memoirs of a Wanderer, Navigating Life's Pathways</a></h2>
+                  <p class="cs_post_subtitle mb-0">Welcome, fellow wanderers, to the labyrinth of life's journey. As we  navigate the intricate pathways that weave through the tapestry of  existence, we encounter moments...</p>
                 </div>
               </div>
             </div>
             <div class="cs_slide">
-              <div class="cs_post cs_style_5 cs_radius_15 cs_zoom">
-                <a href="blog-details.html" class="cs_post_thumb d-block">
-                  <img src="assets/img/post_10.jpg" alt="Thumb" class="cs_zoom_in">
+              <div class="cs_post cs_style_1 cs_radius_15">
+                <a href="blog-details.html" class="cs_post_thumb d-block cs_zoom cs_mb_32">
+                  <img src="assets/img/post_2.jpg" alt="Thumb" class="cs_zoom_in">
                 </a>
                 <div class="cs_post_info">
-                  <p class="cs_post_meta cs_mb_21 cs_fs_23 cs_accent_color">Finance</p>
-                  <h2 class="cs_post_title mb-0 cs_fs_32 cs_white_color"><a href="blog-details.html">Debt-Free Journey: Breaking the Chains of Financial Burden</a></h2>
+                  <h2 class="cs_post_title cs_mb_25 cs_mb_xl_15 cs_fs_45"><a href="blog-details.html">In the Realm of Reflection: Chronicles of Growth</a></h2>
+                  <p class="cs_post_subtitle mb-0">Welcome, fellow wanderers, to the labyrinth of life's journey. As we  navigate the intricate pathways that weave through the tapestry of  existence, we encounter moments...</p>
                 </div>
               </div>
             </div>
             <div class="cs_slide">
-              <div class="cs_post cs_style_5 cs_radius_15 cs_zoom">
-                <a href="blog-details.html" class="cs_post_thumb d-block">
-                  <img src="assets/img/post_11.jpg" alt="Thumb" class="cs_zoom_in">
+              <div class="cs_post cs_style_1 cs_radius_15">
+                <a href="blog-details.html" class="cs_post_thumb d-block cs_zoom cs_mb_32">
+                  <img src="assets/img/post_3.jpg" alt="Thumb" class="cs_zoom_in">
                 </a>
                 <div class="cs_post_info">
-                  <p class="cs_post_meta cs_mb_21 cs_fs_23 cs_accent_color">Fashion</p>
-                  <h2 class="cs_post_title mb-0 cs_fs_32 cs_white_color"><a href="blog-details.html">The Art of Connection: Building Meaningful Relationships</a></h2>
+                  <h2 class="cs_post_title cs_mb_25 cs_mb_xl_15 cs_fs_45"><a href="blog-details.html">Exploring Life's Wanderer: Stories from My World</a></h2>
+                  <p class="cs_post_subtitle mb-0">Welcome, fellow wanderers, to the labyrinth of life's journey. As we  navigate the intricate pathways that weave through the tapestry of  existence, we encounter moments...</p>
                 </div>
               </div>
             </div>
             <div class="cs_slide">
-              <div class="cs_post cs_style_5 cs_radius_15 cs_zoom">
-                <a href="blog-details.html" class="cs_post_thumb d-block">
-                  <img src="assets/img/post_12.jpg" alt="Thumb" class="cs_zoom_in">
+              <div class="cs_post cs_style_1 cs_radius_15">
+                <a href="blog-details.html" class="cs_post_thumb d-block cs_zoom cs_mb_32">
+                  <img src="assets/img/post_2.jpg" alt="Thumb" class="cs_zoom_in">
                 </a>
                 <div class="cs_post_info">
-                  <p class="cs_post_meta cs_mb_21 cs_fs_23 cs_accent_color">Lifestyle</p>
-                  <h2 class="cs_post_title mb-0 cs_fs_32 cs_white_color"><a href="blog-details.html">Embracing Change: Navigating Life's Transitions</a></h2>
-                </div>
-              </div>
-            </div>
-            <div class="cs_slide">
-              <div class="cs_post cs_style_5 cs_radius_15 cs_zoom">
-                <a href="blog-details.html" class="cs_post_thumb d-block">
-                  <img src="assets/img/post_10.jpg" alt="Thumb" class="cs_zoom_in">
-                </a>
-                <div class="cs_post_info">
-                  <p class="cs_post_meta cs_mb_21 cs_fs_23 cs_accent_color">Finance</p>
-                  <h2 class="cs_post_title mb-0 cs_fs_32 cs_white_color"><a href="blog-details.html">Debt-Free Journey: Breaking the Chains of Financial Burden</a></h2>
+                  <h2 class="cs_post_title cs_mb_25 cs_mb_xl_15 cs_fs_45"><a href="blog-details.html">In the Realm of Reflection: Chronicles of Growth</a></h2>
+                  <p class="cs_post_subtitle mb-0">Welcome, fellow wanderers, to the labyrinth of life's journey. As we  navigate the intricate pathways that weave through the tapestry of  existence, we encounter moments...</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="cs_pagination cs_style_2 cs_mobile_show"></div>
+        <div class="cs_pagination cs_style_2"></div>
       </div>
-    </section>
-    <!-- End Tending Blog Section -->
-    <!-- Start Latest Blog -->
-    <section class="container-fluid">
+      <div class="text-center cs_show_mobile">
+        <div class="cs_height_40 cs_height_lg_40"></div>
+        <a href="#" class="cs_btn cs_style_2 cs_fs_23 cs_primary_color">Explore More</a>
+      </div>
+    </div>
+    <!-- End Featured Posts Section -->
+     <!-- Start Latest Episode Section -->
+    <section class="cs_gray_bg_2" style="margin-top: 3rem;">
       <div class="cs_height_140 cs_height_lg_75"></div>
-      <div class="cs_section_heading cs_style_2">
-        <h2 class="cs_section_title mb-0 cs_fs_32">Latest Blogs</h2>
-      </div>
-      <div class="cs_height_56 cs_height_lg_45"></div>
-      <div class="cs_grid_3">
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_34.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Discover Your Personal Style</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
-            </div>
+      <div class="container-fluid">
+        <div class="cs_section_heading cs_style_1">
+          <h2 class="cs_section_title cs_fs_90 mb-0">Our Signature Products</h2>
+          <div class="cs_section_right">
+            <p class="cs_fs_23 cs_mb_37 cs_mb_xl_25">Dive into our newest episode for captivating stories, insightful discussions, and endless inspiration. Tune in now!</p>
+            <a href="episodes.html" class="cs_btn cs_style_2 cs_fs_23 cs_primary_color">Explore More</a>
           </div>
         </div>
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_35.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Elevate Your Wardrobe with These Tips</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
+        <div class="cs_height_90 cs_height_lg_50"></div>
+        <div class="cs_slider cs_style_1 cs_slider_gap_40">
+          <div class="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-variable-width="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-lg-slides="4" data-add-slides="4">
+            <div class="cs_slider_wrapper">
+              <div class="cs_slide">
+                <div class="cs_post cs_style_5 cs_radius_15 cs_zoom">
+                  <a href="blog-details.html" class="cs_post_thumb d-block">
+                    <img src="assets/img/post_9.jpg" alt="Thumb" class="cs_zoom_in">
+                  </a>
+                  <div class="cs_post_info">
+                    <p class="cs_post_meta cs_mb_21 cs_fs_23 cs_accent_color">Travel</p>
+                    <h2 class="cs_post_title mb-0 cs_fs_32 cs_white_color"><a href="blog-details.html">Embracing Change: Navigating Life's Transitions</a></h2>
+                  </div>
+                  <a href="https://www.youtube.com/embed/rRid6GCJtgc" class="cs_play_btn_1 cs_primary_color cs_white_bg cs_center cs_video_open">
+                    <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.3075 5.48062L5.34625 1.10937C4.88065 0.768425 4.32972 0.563067 3.75454 0.516061C3.17937 0.469055 2.60241 0.582238 2.08762 0.843062C1.57283 1.10389 1.14032 1.50217 0.83803 1.99375C0.535739 2.48534 0.375476 3.05103 0.375004 3.62812V12.375C0.374106 12.9527 0.533532 13.5192 0.835535 14.0117C1.13754 14.5041 1.57027 14.903 2.08556 15.1641C2.60085 15.4252 3.17849 15.5382 3.75417 15.4904C4.32986 15.4427 4.881 15.2361 5.34625 14.8937L11.3075 10.5225C11.7031 10.2322 12.0247 9.85288 12.2464 9.41519C12.4681 8.9775 12.5836 8.49376 12.5836 8.00312C12.5836 7.51249 12.4681 7.02875 12.2464 6.59106C12.0247 6.15337 11.7031 5.77403 11.3075 5.48375V5.48062Z" fill="currentColor"/>
+                    </svg>                                   
+                  </a>
+                </div>
+              </div>
+              <div class="cs_slide">
+                <div class="cs_post cs_style_5 cs_radius_15 cs_zoom">
+                  <a href="blog-details.html" class="cs_post_thumb d-block">
+                    <img src="assets/img/post_10.jpg" alt="Thumb" class="cs_zoom_in">
+                  </a>
+                  <div class="cs_post_info">
+                    <p class="cs_post_meta cs_mb_21 cs_fs_23 cs_accent_color">Finance</p>
+                    <h2 class="cs_post_title mb-0 cs_fs_32 cs_white_color"><a href="blog-details.html">Debt-Free Journey: Breaking the Chains of Financial Burden</a></h2>
+                  </div>
+                  <a href="https://www.youtube.com/embed/rRid6GCJtgc" class="cs_play_btn_1 cs_primary_color cs_white_bg cs_center cs_video_open">
+                    <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.3075 5.48062L5.34625 1.10937C4.88065 0.768425 4.32972 0.563067 3.75454 0.516061C3.17937 0.469055 2.60241 0.582238 2.08762 0.843062C1.57283 1.10389 1.14032 1.50217 0.83803 1.99375C0.535739 2.48534 0.375476 3.05103 0.375004 3.62812V12.375C0.374106 12.9527 0.533532 13.5192 0.835535 14.0117C1.13754 14.5041 1.57027 14.903 2.08556 15.1641C2.60085 15.4252 3.17849 15.5382 3.75417 15.4904C4.32986 15.4427 4.881 15.2361 5.34625 14.8937L11.3075 10.5225C11.7031 10.2322 12.0247 9.85288 12.2464 9.41519C12.4681 8.9775 12.5836 8.49376 12.5836 8.00312C12.5836 7.51249 12.4681 7.02875 12.2464 6.59106C12.0247 6.15337 11.7031 5.77403 11.3075 5.48375V5.48062Z" fill="currentColor"/>
+                    </svg>                                   
+                  </a>
+                </div>
+              </div>
+              <div class="cs_slide">
+                <div class="cs_post cs_style_5 cs_radius_15 cs_zoom">
+                  <a href="blog-details.html" class="cs_post_thumb d-block">
+                    <img src="assets/img/post_11.jpg" alt="Thumb" class="cs_zoom_in">
+                  </a>
+                  <div class="cs_post_info">
+                    <p class="cs_post_meta cs_mb_21 cs_fs_23 cs_accent_color">Fashion</p>
+                    <h2 class="cs_post_title mb-0 cs_fs_32 cs_white_color"><a href="blog-details.html">The Art of Connection: Building Meaningful Relationships</a></h2>
+                  </div>
+                  <a href="https://www.youtube.com/embed/rRid6GCJtgc" class="cs_play_btn_1 cs_primary_color cs_white_bg cs_center cs_video_open">
+                    <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.3075 5.48062L5.34625 1.10937C4.88065 0.768425 4.32972 0.563067 3.75454 0.516061C3.17937 0.469055 2.60241 0.582238 2.08762 0.843062C1.57283 1.10389 1.14032 1.50217 0.83803 1.99375C0.535739 2.48534 0.375476 3.05103 0.375004 3.62812V12.375C0.374106 12.9527 0.533532 13.5192 0.835535 14.0117C1.13754 14.5041 1.57027 14.903 2.08556 15.1641C2.60085 15.4252 3.17849 15.5382 3.75417 15.4904C4.32986 15.4427 4.881 15.2361 5.34625 14.8937L11.3075 10.5225C11.7031 10.2322 12.0247 9.85288 12.2464 9.41519C12.4681 8.9775 12.5836 8.49376 12.5836 8.00312C12.5836 7.51249 12.4681 7.02875 12.2464 6.59106C12.0247 6.15337 11.7031 5.77403 11.3075 5.48375V5.48062Z" fill="currentColor"/>
+                    </svg>                                   
+                  </a>
+                </div>
+              </div>
+              <div class="cs_slide">
+                <div class="cs_post cs_style_5 cs_radius_15 cs_zoom">
+                  <a href="blog-details.html" class="cs_post_thumb d-block">
+                    <img src="assets/img/post_12.jpg" alt="Thumb" class="cs_zoom_in">
+                  </a>
+                  <div class="cs_post_info">
+                    <p class="cs_post_meta cs_mb_21 cs_fs_23 cs_accent_color">Lifestyle</p>
+                    <h2 class="cs_post_title mb-0 cs_fs_32 cs_white_color"><a href="blog-details.html">Embracing Change: Navigating Life's Transitions</a></h2>
+                  </div>
+                  <a href="https://www.youtube.com/embed/rRid6GCJtgc" class="cs_play_btn_1 cs_primary_color cs_white_bg cs_center cs_video_open">
+                    <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.3075 5.48062L5.34625 1.10937C4.88065 0.768425 4.32972 0.563067 3.75454 0.516061C3.17937 0.469055 2.60241 0.582238 2.08762 0.843062C1.57283 1.10389 1.14032 1.50217 0.83803 1.99375C0.535739 2.48534 0.375476 3.05103 0.375004 3.62812V12.375C0.374106 12.9527 0.533532 13.5192 0.835535 14.0117C1.13754 14.5041 1.57027 14.903 2.08556 15.1641C2.60085 15.4252 3.17849 15.5382 3.75417 15.4904C4.32986 15.4427 4.881 15.2361 5.34625 14.8937L11.3075 10.5225C11.7031 10.2322 12.0247 9.85288 12.2464 9.41519C12.4681 8.9775 12.5836 8.49376 12.5836 8.00312C12.5836 7.51249 12.4681 7.02875 12.2464 6.59106C12.0247 6.15337 11.7031 5.77403 11.3075 5.48375V5.48062Z" fill="currentColor"/>
+                    </svg>                                   
+                  </a>
+                </div>
+              </div>
+              <div class="cs_slide">
+                <div class="cs_post cs_style_5 cs_radius_15 cs_zoom">
+                  <a href="blog-details.html" class="cs_post_thumb d-block">
+                    <img src="assets/img/post_10.jpg" alt="Thumb" class="cs_zoom_in">
+                  </a>
+                  <div class="cs_post_info">
+                    <p class="cs_post_meta cs_mb_21 cs_fs_23 cs_accent_color">Finance</p>
+                    <h2 class="cs_post_title mb-0 cs_fs_32 cs_white_color"><a href="blog-details.html">Debt-Free Journey: Breaking the Chains of Financial Burden</a></h2>
+                  </div>
+                  <a href="https://www.youtube.com/embed/rRid6GCJtgc" class="cs_play_btn_1 cs_primary_color cs_white_bg cs_center cs_video_open">
+                    <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.3075 5.48062L5.34625 1.10937C4.88065 0.768425 4.32972 0.563067 3.75454 0.516061C3.17937 0.469055 2.60241 0.582238 2.08762 0.843062C1.57283 1.10389 1.14032 1.50217 0.83803 1.99375C0.535739 2.48534 0.375476 3.05103 0.375004 3.62812V12.375C0.374106 12.9527 0.533532 13.5192 0.835535 14.0117C1.13754 14.5041 1.57027 14.903 2.08556 15.1641C2.60085 15.4252 3.17849 15.5382 3.75417 15.4904C4.32986 15.4427 4.881 15.2361 5.34625 14.8937L11.3075 10.5225C11.7031 10.2322 12.0247 9.85288 12.2464 9.41519C12.4681 8.9775 12.5836 8.49376 12.5836 8.00312C12.5836 7.51249 12.4681 7.02875 12.2464 6.59106C12.0247 6.15337 11.7031 5.77403 11.3075 5.48375V5.48062Z" fill="currentColor"/>
+                    </svg>                                   
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_36.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Trends You Need to Know</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
-            </div>
-          </div>
-        </div>
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_37.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Fashion with a Conscience</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
-            </div>
-          </div>
-        </div>
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_38.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Tips for Perfecting Your Look</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
-            </div>
-          </div>
-        </div>
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_39.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Bringing Retro Fashion into Modern Times</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
-            </div>
-          </div>
-        </div>
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_40.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Versatile Outfits for Any Occasion</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
-            </div>
-          </div>
-        </div>
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_41.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Quick Tips for a Stylish Life</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
-            </div>
-          </div>
-        </div>
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_42.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Fashion with a Conscience</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
-            </div>
-          </div>
-        </div>
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_43.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Fashionable Finds Without Breaking the Bank</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
-            </div>
-          </div>
-        </div>
-        <div class="cs_grid_item">
-          <div class="cs_post cs_style_10">
-            <a href="blog-details.html" class="cs_post_thumb cs_zoom cs_radius_15 cs_mb_30 cs_mb_lg_20">
-              <img src="assets/img/post_44.jpg" alt="Thumb" class="cs_zoom_in">
-            </a>
-            <div class="cs_post_info">
-              <h2 class="cs_post_title cs_mb_12 cs_mb_lg_7 cs_fs_32"><a href="blog-details.html">Common Mistakes and How to Avoid Them</a></h2>
-              <p class="cs_post_subtitle mb-0">Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise Life is an ever-changing landscape, filled with twists and turns that  often catch us by surprise...</p>
-            </div>
-          </div>
+          <div class="cs_pagination cs_style_2"></div>
         </div>
       </div>
-      <div class="text-center">
-        <div class="cs_height_96 cs_height_lg_50"></div>
-        <a href="blog-details.html" class="cs_btn cs_style_1 cs_type_1 cs_fs_23 cs_center cs_primary_bg cs_white_color"><span>Load More</span></a>
-      </div>
+      <div class="cs_height_150 cs_height_lg_80"></div>
     </section>
-    <!-- End Latest Blog -->
+    <!-- End Latest Episode Section -->
+     <!-- Start Popular Post -->
+    <section>
+      <div class="cs_height_140 cs_height_lg_75"></div>
+
+      <div class="container-fluid">
+        <div class="row cs_gap_y_40 cs_row_gap_40">
+          <div class="col-lg-12">
+            <div class="cs_post cs_style_7 cs_type_1">
+              <div class="cs_post_info">
+                <p class="cs_post_meta cs_mb_21 cs_mb_xl_12 cs_fs_23">By <a href="#">Nikola</a> / 23 April 2024</p>
+                <h2 class="cs_post_title cs_mb_12 cs_fs_64"><a href="blog-details.html">Illuminate the Darkness: Stories of Hope and Resilience</a></h2>
+                <p class="cs_post_subtitle cs_mb_43 cs_mb_xl_20 cs_fs_23">In the solitude of introspection, we come face to face with our innermost  thoughts and emotions. Through moments of quiet reflection and  self-discovery, we learn to listen to the whispers...</p>
+                <a href="#" class="cs_btn cs_style_2 cs_fs_23 cs_primary_color cs_radius_15">Read Now</a>
+              </div>
+              <a href="blog-details.html" class="cs_post_thumb cs_zoom">
+                <img src="assets/img/post_26.jpg" alt="Thumb" class="cs_zoom_in w-100">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="cs_post cs_style_8">
+              <a href="blog-details.html" class="cs_post_thumb cs_zoom">
+                <img src="assets/img/post_27.jpg" alt="Thumb" class="cs_zoom_in w-100">
+              </a>
+              <div class="cs_post_info">
+                <h2 class="cs_post_title mb-0 cs_fs_32"><a href="blog-details.html">Chronicles of Curiosity: Unveiling Hidden Gems</a></h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="cs_post cs_style_8">
+              <a href="blog-details.html" class="cs_post_thumb cs_zoom">
+                <img src="assets/img/post_28.jpg" alt="Thumb" class="cs_zoom_in w-100">
+              </a>
+              <div class="cs_post_info">
+                <h2 class="cs_post_title mb-0 cs_fs_32"><a href="blog-details.html">Ripples of Wisdom: Insights from the Heart</a></h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="cs_post cs_style_8">
+              <a href="blog-details.html" class="cs_post_thumb cs_zoom">
+                <img src="assets/img/post_29.jpg" alt="Thumb" class="cs_zoom_in w-100">
+              </a>
+              <div class="cs_post_info">
+                <h2 class="cs_post_title mb-0 cs_fs_32"><a href="blog-details.html">Echoes of Eternity: Reflections on Life's Journey</a></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_140 cs_height_lg_75"></div>
+    </section>
+    <!-- End Popular Post -->
+         <!-- Start Contact Section -->
+    <section>
+      <div class="cs_height_140 cs_height_lg_75"></div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+            <div class="text-center">
+              <h2 class="text-center cs_fs_45 cs_mb_12">Get in touch</h2>
+              <p class="mb-0">Connect with me through email, phone or the contact form and let's start a conversation.</p>
+              <div class="cs_height_90 cs_height_lg_50"></div>
+            </div>
+            <div class="row cs_gap_y_24">
+              <div class="col-lg-6">
+                <div class="cs_iconbox cs_style_1 cs_radius_15">
+                  <div class="cs_iconbox_icon cs_center cs_secondary_bg"><img src="assets/img/icons/email.svg" alt=""></div>
+                  <div class="cs_iconbox_right">
+                    <h3 class="cs_fs_23 cs_mb_1">Send us an email</h3>
+                    <p class="mb-0"><a href="mainto:info@traven.com">info@traven.com</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="cs_iconbox cs_style_1 cs_radius_15">
+                  <div class="cs_iconbox_icon cs_center cs_secondary_bg"><img src="assets/img/icons/phone.svg" alt=""></div>
+                  <div class="cs_iconbox_right">
+                    <h3 class="cs_fs_23 cs_mb_1">Phone Number</h3>
+                    <p class="mb-0"><a href="tel:(+55)34099145">(+55) 340 99 145</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cs_height_100 cs_height_lg_60"></div>
+            <form action="#" class="row cs_gap_y_30">
+              <div class="col-lg-6">
+                <input type="text" class="cs_form_field" placeholder="Your name *">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="cs_form_field" placeholder="Your email *">
+              </div>
+              <div class="col-lg-12">
+                <textarea cols="30" rows="7" class="cs_form_field" placeholder="Write your details *"></textarea>
+              </div>
+              <div class="col-lg-12">
+                <div class="text-center">
+                  <button class="cs_btn cs_style_2 cs_type_1 cs_fs_23 cs_radius_15" type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_150 cs_height_lg_80"></div>
+    </section>
+    <!-- End Contact Section -->
     <div class="cs_height_150 cs_height_lg_80"></div>
     <!-- Start Instagram Section -->
     <div class="container-fluid p-0">
