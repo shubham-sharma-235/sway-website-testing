@@ -21,11 +21,11 @@
 :root {
   --white: #fff;
   --black: #000;
-  --primary: #010d1b;
+  --primary:  #011327;
   --secondary: #525050;
-  --accent: #18c99d;
-  --orange: #ff4b13;
-  --gray: #f5f5f5;
+  --accent: #E4D8C9;
+  --orange: #E4D8C9;
+  --gray: #E4D8C9;
   --border: #dcdcdc;
   --primary-font: "Jost", sans-serif;
   --secondary-font: "Jost", sans-serif;
@@ -8451,3 +8451,29 @@ hr {
      object-fit: cover;
   display: inline-block;
 }/*# sourceMappingURL=style.css.map */
+
+
+/* --------------------------------------------- */
+/* ----------------- MY CSS -------------------- */
+/* --------------------------------------------- */
+
+
+.cs_fs_23 {
+  font-size: 20px!important;
+  line-height: 1.522em;
+}
+.cs_fs_128 {
+    font-size: 56px;
+    line-height: 1.17em;
+}
+.cs_hero.cs_style_3 .cs_hero_text {
+    padding: 55px 70px 45px 72px;
+    max-width: 1100px;
+}
+.cs_pagination.cs_style_3 {
+    width: 100px;
+    height: 500px;
+}
+.cs_hero.cs_style_3 .cs_hero_in {
+    width: 65%;
+}
