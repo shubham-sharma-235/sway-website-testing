@@ -8477,3 +8477,8 @@ hr {
 .cs_hero.cs_style_3 .cs_hero_in {
     width: 65%;
 }
+@media (max-width: 1600px) {
+    .cs_fs_90 {
+        font-size: 56px;
+    }
+}
