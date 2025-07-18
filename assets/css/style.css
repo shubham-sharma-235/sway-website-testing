@@ -18,6 +18,8 @@
 ## All Variable
 ----------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Space+Grotesk:wght@300..700&display=swap');
+
 :root {
   --white: #fff;
   --black: #000;
@@ -27,8 +29,8 @@
   --orange: #E4D8C9;
   --gray: #E4D8C9;
   --border: #dcdcdc;
-  --primary-font: "Jost", sans-serif;
-  --secondary-font: "Jost", sans-serif;
+  --primary-font: "EB Garamond", serif;
+  --secondary-font: "Space Grotesk", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -8481,4 +8483,118 @@ hr {
     .cs_fs_90 {
         font-size: 56px;
     }
+}
+
+/* ------------------------------------- */
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: url('../img/hero-section-slide-3.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 22, 47, 0.318); /* brand blue overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* .cs_nav_list li a,.cs_main_header_right{
+  color: #fff!important;
+} */
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-btn {
+  display: inline-block;
+  background: #fff;
+  color: #0D52A1;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #0D52A1;
+  color: #fff;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width:480px) {
+  .hero {
+    height: 70vh;
+  }
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+}
+
+.cs_contact_btn {
+  display: inline-block;
+  padding: 10px 24px;
+  color: #000;                                    /* dark text initially over white */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.407);           /* glass on white background */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.2);           /* subtle border */
+  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.cs_contact_btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Button style when nav becomes black */
+.cs_nav.scrolled .cs_contact_btn {
+  background: rgba(13, 82, 161, 0.8);             /* brand blue glass */
+  color: #fff;                                    /* white text */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cs_nav.scrolled .cs_contact_btn:hover {
+  background: rgba(13, 82, 161, 1);               /* solid on hover */
 }
