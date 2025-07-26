@@ -8598,3 +8598,8 @@ hr {
 .cs_nav.scrolled .cs_contact_btn:hover {
   background: rgba(13, 82, 161, 1);               /* solid on hover */
 }
+
+.cs_post.cs_style_5::before {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(7, 7, 7, 0)), to(#1c1a1a));
+    background: linear-gradient(180deg, rgba(7, 7, 7, 0) 0%, rgba(0, 19, 52, 0.479) 100%);
+}
