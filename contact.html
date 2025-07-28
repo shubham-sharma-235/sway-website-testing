@@ -41,6 +41,39 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/slick.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <style>
+      .cs_nav {
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .cs_nav.scrolled {
+      }
+      .cs_nav .cs_nav_list a {
+        color: #000;
+        transition: color 0.3s ease;
+      }
+      .cs_nav.scrolled .cs_nav_list a {
+        color: #000;
+      }
+    </style>
+    <script>
+      window.addEventListener('scroll', function() {
+        const nav = document.querySelector('.cs_nav');
+        if (window.scrollY > 50) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+      });
+      window.addEventListener('scroll', function() {
+        const nav = document.querySelector('.cs_nav');
+        if (window.scrollY > 50) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+      });
+    </script>
   </head>
   <body>
     <!-- Start Header -->
