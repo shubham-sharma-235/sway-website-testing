@@ -8,6 +8,7 @@
     <meta name="author" content="Laralink">
     <!-- Primary Meta Tags -->
     <title>SWAY – Jaipur-based Costume & Adornment Studio | Storytelling Through Fabric</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta name="description" content="Discover SWAY, a Jaipur-based atelier blending heritage craftsmanship with modern design. Personalized dance costumes, bridal lehengas & cultural garments crafted with care.">
     <meta name="keywords" content="costume design Jaipur, bridal lehengas, custom dance costumes, cultural garments, heritage fashion, stage wear, screen costumes">
     <meta property="og:title" content="SWAY – Storytelling Through Fabric">
@@ -61,6 +62,79 @@
       }
       .cs_nav.scrolled .cs_nav_list a {
         color: #000;
+      }
+      @media(max-width:1510px){
+        .cs_fs_23 {
+            font-size: 15px !important;
+            line-height: 1.522em;
+        }
+      }
+      :root{
+        --cs-accent: #0D52A1;             
+        --cs-accent-soft: rgba(13,82,161,.08);
+        --cs-border: rgba(0,0,0,.12);
+        --cs-border-strong: rgba(0,0,0,.16);
+        --cs-text: #1c1c1c;
+        --cs-radius: 14px;
+      }
+      .cs_cards_wrap{
+        padding: 22px 18px;
+        background: linear-gradient(180deg, #fff 0%, #fafbfecd 100%);
+        border-radius: 18px;
+      }
+      .cs_cards{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .cs_card{
+        position: relative;
+        background: #fff;
+        border: 1px solid var(--cs-border);
+        border-radius: var(--cs-radius);
+        padding: 14px 16px 14px 18px;     
+        min-height: 112px;               
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        text-align: start;
+        transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease, transform .15s ease;
+        overflow: hidden;
+      }
+      .cs_card::before{
+        content: "";
+        position: absolute;
+        left: 0; top: 0; bottom: 0;
+        width: 4px;
+        background: var(--cs-accent);
+        border-top-left-radius: var(--cs-radius);
+        border-bottom-left-radius: var(--cs-radius);
+      }
+      .cs_card:hover{
+        background: var(--cs-accent-soft);
+        border-color: var(--cs-border-strong);
+        transform: translateY(-1px);
+        box-shadow: 0 6px 14px rgba(13,82,161,.08);
+      }
+      .cs_card h3{
+        margin: 0;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.35;
+        color: var(--cs-text);
+        letter-spacing: 0.1px;
+      }
+      @media (max-width: 991.98px){
+        .cs_section_title.cs_fs_90{ font-size: 48px; line-height: 1.12; }
+      }
+      @media (max-width: 575.98px){
+        .cs_cards{ grid-template-columns: 1fr; gap: 12px; }
+        .cs_cards_wrap{ padding: 18px 14px; }
+        .cs_card{ min-height: 104px; padding: 12px 14px 12px 16px; }
+        .cs_card h3{ font-size: 18px; }
       }
     </style>
     <script>
@@ -149,7 +223,7 @@
           <div class="col-lg-12">
             <div class="cs_post cs_style_7">
               <a class="cs_post_thumb cs_zoom">
-                <img src="./assets/img/story-section-mockup.webp" alt="Thumb" class="cs_zoom_in w-100">
+                <img src="./assets/img/abim.png" alt="Thumb" class="cs_zoom_in w-100">
               </a>
               <div class="cs_post_info">
                 <h2 class="cs_post_title cs_mb_12 cs_fs_64"><a>Sway’s story</a></h2>
@@ -192,7 +266,7 @@
                 <a href="./about.html" class="cs_btn cs_style_2 cs_fs_23 cs_primary_color cs_radius_15">About Us</a>
               </div>
               <a class="cs_post_thumb cs_zoom">
-                <img src="./assets/img/engraved-wall-logo-mockup.webp" alt="Thumb" class="cs_zoom_in w-100">
+                <img src="./assets/img/crafted-stories-im2.jpg" alt="Thumb" class="cs_zoom_in w-100">
               </a>
             </div>
           </div>
@@ -204,66 +278,17 @@
               <a href="episodes.html" class="cs_btn cs_style_2 cs_fs_23 cs_primary_color">Explore More</a>
             </div> -->
           </div>
-          <div class="col-lg-4">
-            <div class="cs_post cs_style_8">
-              <a class="cs_post_thumb cs_zoom">
-                <img src="./assets/img/adornments.webp" alt="Thumb" class="cs_zoom_in w-100">
-              </a>
-              <div class="cs_post_info">
-                <h2 class="cs_post_title mb-0 cs_fs_32"><a>Personalized, made-to-measure adornments</a></h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="cs_post cs_style_8">
-              <a class="cs_post_thumb cs_zoom">
-                <img src="./assets/img/global-clients.webp" alt="Thumb" class="cs_zoom_in w-100">
-              </a>
-              <div class="cs_post_info">
-                <h2 class="cs_post_title mb-0 cs_fs_32"><a>170+ clients <br> globally</a></h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="cs_post cs_style_8">
-              <a class="cs_post_thumb cs_zoom">
-                <img src="./assets/img/conscious-design.webp" alt="Thumb" class="cs_zoom_in w-100">
-              </a>
-              <div class="cs_post_info">
-                <h2 class="cs_post_title mb-0 cs_fs_32"><a>Conscious design using upcycled fabrics</a></h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="cs_post cs_style_8">
-              <a class="cs_post_thumb cs_zoom">
-                <img src="./assets/img/jewe-designing.webp" alt="Thumb" class="cs_zoom_in w-100">
-              </a>
-              <div class="cs_post_info">
-                <h2 class="cs_post_title mb-0 cs_fs_32"><a>End-to-end service: jewelry, styling & music</a></h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="cs_post cs_style_8">
-              <a class="cs_post_thumb cs_zoom">
-                <img src="./assets/img/performance.webp" alt="Thumb" class="cs_zoom_in w-100">
-              </a>
-              <div class="cs_post_info">
-                <h2 class="cs_post_title mb-0 cs_fs_32"><a>Crafted with emotion, tested for performance</a></h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="cs_post cs_style_8">
-              <a class="cs_post_thumb cs_zoom">
-                <img src="./assets/img/professionals.webp" alt="Thumb" class="cs_zoom_in w-100">
-              </a>
-              <div class="cs_post_info">
-                <h2 class="cs_post_title mb-0 cs_fs_32"><a>Led by professionals with 30+ years of experience</a></h2>
-              </div>
-            </div>
-          </div>
+          
+<div class="cs_cards_wrap">
+  <ul class="cs_cards" role="list">
+    <li class="cs_card"><h3>Personalized, made-to-measure adornments</h3></li>
+    <li class="cs_card"><h3>170+ clients globally</h3></li>
+    <li class="cs_card"><h3>Conscious design using upcycled fabrics</h3></li>
+    <li class="cs_card"><h3>End-to-end service: jewelry, styling &amp; music</h3></li>
+    <li class="cs_card"><h3>Crafted with emotion, tested for performance</h3></li>
+    <li class="cs_card"><h3>Led by professionals with 30+ years of experience</h3></li>
+  </ul>
+</div>
         </div>
       </div>
       <!-- <div class="cs_height_140 cs_height_lg_75"></div> -->
@@ -643,7 +668,7 @@
                   <p>Story-driven costume and adornment studio blending heritage craftsmanship with contemporary design. From dance costumes to bridal lehengas, each piece is thoughtfully created to narrate your unique moment.</p>
                 </div>
                 <div class="cs_social_links cs_style_1">
-                  <a href="https://www.instagram.com/sway.seam/"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                  <a href="https://www.instagram.com/sway.seam/"><i class='bx bxl-instagram'></i>Instagram</a>
                 </div>
               </div>
             </div>
@@ -666,7 +691,8 @@
                   <b>Dr Swati Malik:</b> <a style="text-decoration: underline;" href="tel:+919413345657">+91 94133 45657</a> <br>
                   <b>Mr Vijay Solomon:</b> <a style="text-decoration: underline;" href="tel:+919413345673">+91 94133 45673</a> <br>
                   <b>Email:</b> <a style="text-decoration: underline;" href="mailto:hello@sway.org.in">hello@sway.org.in</a> <br>
-                  <b>Location:</b> <a style="text-decoration: underline;" href="https://maps.app.goo.gl/crHJmjZGwCDAo6YR8">9, Teacher's colony DCM, Ajmer Road, Jaipur PIN: 302021</a> <br>
+                  <b>Location:</b> <a style="text-decoration: underline;" href="https://share.google/AtlV6zf2T7GIRk5Rj">29, Teacher’s colony DCM, Ajmer Road, Jaipur
+                  <br> PIN : 302021</a>
                 </div>
               </div>
             </div>
